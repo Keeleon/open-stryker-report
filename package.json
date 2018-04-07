@@ -11,17 +11,10 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.openStrykerReport",
+        "workspaceContains:stryker.conf.js"
     ],
     "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
-    },
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
