@@ -16,6 +16,10 @@ Stryker is a mutation testing suite for javascript/nodejs. Check them out here: 
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.2
+
+Housekeeping, added icon and git repo to package.json.
+
 ### 0.0.1
 
 Initial release.
