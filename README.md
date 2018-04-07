@@ -1,6 +1,6 @@
 # open-stryker-report README
 
-Opens the Stryker html report in your browser that matches the file you are currently working on. If no match is found then the default `reports/mutation/html/index.html` file is opened instead.
+Opens the [Stryker](https://stryker-mutator.io/) html report in your browser that matches the file you are currently working on. If no match is found then the default `reports/mutation/html/index.html` file is opened instead.
 
 ## Features
 
