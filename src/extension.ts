@@ -42,7 +42,7 @@ async function getStrykerReportLocation(): Promise<string> {
     return defaultStrykerReportLocation;
   }
   const extension = path.extname(currentOpenFileName);
-  const baseName = path.basename(currentOpenFileName, extension);
+  const baseName = path.basename(currentOpenFileName, extension).replace('.spec', '');
   const values = await vscode.workspace.findFiles(`reports/mutation/html/**/${baseName}${extension}.html`);
   if (values.length === 0) {
     return defaultStrykerReportLocation;
